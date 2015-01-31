@@ -36,6 +36,22 @@ Development
     * open `http://localhost:3000/` to see the result.
 
 
+### React Version
+
+```
++-- client
+|  +-- index.html
+|  +-- global.sass
+|  +-- index.js (entry point)
++-- src
+|  +-- components
++-- webpack.config.js
+```
+
+* development:
+    * `$ npm install`
+    * `$ npm run react-dev`
+
 Mockup / Prototype
 ------------
 

@@ -1,0 +1,24 @@
+@import compass/css3
+
+#sidebar
+  width: 20rem
+  height: 100%
+  position: absolute
+  z-index: 1
+  top: 0
+  bottom: 0
+  overflow-y: auto
+  overflow-x: hidden
+  +background-image(linear-gradient(left, #e0e0e0, #d0d0d0))
+  +transition-duration(0.5s)
+  +transition-timing-function(ease)
+  @media screen and (max-width: 1024px)
+    width: 100%
+    height: 2.75rem
+    overflow: visible
+
+  @media screen and (min-width: 1025px)
+    &.desktop-expanded-layout
+      left: 0
+    &.desktop-collapsed-layout
+      left: -17rem
